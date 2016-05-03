@@ -11,6 +11,21 @@ dl, dd, ol, ul, figure {
 
 
 /**
+ * For all the David Stillmans out there (stilldavid.com)
+ */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+
+
+/**
  * Basic styling
  */
 body {
@@ -105,6 +120,10 @@ html, body {
     }
 }
 
+
+/**
+ * Stylez
+ */
 #jumbrotr0n {
   height: $content-width / 2;
   background-image: url('/img/birds.jpg');
