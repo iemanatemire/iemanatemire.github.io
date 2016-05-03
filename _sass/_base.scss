@@ -143,3 +143,14 @@ html, body {
   color: $grey-color-dark;
   text-decoration: none;
 }
+
+.four-oh-four {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: $base-font-size * 20;
+  position: fixed;
+  bottom: -5px;
+  margin: 0;
+  padding: 0;
+}

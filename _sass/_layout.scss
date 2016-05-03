@@ -58,6 +58,11 @@
   .footer-col-3 {
     display: none;
   }
+
+  .four-oh-four {
+    font-size: $base-font-size * 15;
+    bottom: 60px;
+  }
 }
 
 @include media-query($on-palm) {
@@ -73,5 +78,10 @@
 
   .footer-col-3 {
     display: none;
+  }
+
+  .four-oh-four {
+    font-size: $base-font-size * 10;
+    bottom: 95px;
   }
 }
