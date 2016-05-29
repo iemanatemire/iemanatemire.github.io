@@ -126,7 +126,7 @@ html, body {
  */
 #jumbrotr0n {
   height: $content-width / 2;
-  background-image: url('/img/birds.jpg');
+  background-image: $background-image;
   background-size: cover;
   background-position: center 15%;
   background-repeat: no-repeat;
