@@ -1,3 +1,3 @@
-# iemanatemire.github.io
+# natemeier.github.io
 
 my little site.
