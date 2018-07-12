@@ -29,7 +29,7 @@
 }
 
 h1 {
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
 }
 
 h2 {
@@ -55,9 +55,10 @@ ul {
 }
 
 .container {
-  width: 42em;
+  max-width: 42em;
   margin: 0 auto;
   margin-bottom: 10em;
+  padding: 0 1em;
 }
 
 .header {
@@ -75,4 +76,10 @@ ul {
 
 .time {
   font-style: italic;
+}
+
+@include media-query($on-palm) {
+  .container {
+    font-size: 0.8em;
+  }
 }
