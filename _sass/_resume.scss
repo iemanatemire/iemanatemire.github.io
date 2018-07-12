@@ -1,0 +1,78 @@
+
+@page {
+  size: 8.5in 11.0in; 
+  margin-top: 0.5in;
+  margin-left: 0.5in;
+  margin-right: 0.5in;
+  font-size: 8pt;
+
+  @top-right {
+    content: normal;
+    margin: 0;
+  }
+
+  @top-left {
+    content: normal;
+    margin: 0;
+  }
+
+  @bottom-right-corner {
+    content: normal;
+    margin: 0;
+  }
+
+  @bottom-left-corner {
+    content: normal;
+    margin: 0;
+  }
+
+}
+
+h1 {
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.25em;
+}
+
+
+h3 {
+  margin-bottom: 0.1em;
+}
+
+
+ul {
+  padding: 0 0 0 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#my-name {
+  font-weight: bold;
+}
+
+.container {
+  width: 42em;
+  margin: 0 auto;
+  margin-bottom: 10em;
+}
+
+.header {
+  margin-top: 4em;
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+}
+
+.position {
+  margin-bottom: 0.1em;
+}
+
+.time {
+  font-style: italic;
+}
