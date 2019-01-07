@@ -1,3 +1,3 @@
 # natemeier.github.io
 
-my little site.
+my little personal site.
