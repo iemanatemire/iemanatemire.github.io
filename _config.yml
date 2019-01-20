@@ -1,16 +1,15 @@
+---
 
 title: Nate Meier
 name: Nate Meier
 email: nate@natemeier.com
 locale: Longmont, CO
-description: Data, software, music, and mountains.
+description: A big nerd.
 baseurl: ""
-url: "http://natemeier.github.io"
-keybase_username:      natemeier
-github_username:       natemeier
-twitter_username:      iemanatemire
-flickr_username:       natemeier
-linkedin_username:     natemeier
-soundcloud_username:   iemanatemire
+url: http://natemeier.github.io
+keybase_username: natemeier
+github_username: natemeier
+linkedin_username: natemeier
+strava_username: natemeier
 
 markdown: kramdown
