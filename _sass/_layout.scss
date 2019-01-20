@@ -1,87 +1,42 @@
 /**
  * Site footer
  */
-.site-footer {
-  position:fixed;
-  left: 0px;
-  bottom: 0px;
-  height: 70px;
-  width: 100%;
-  border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+
+footer {
   background-color: white;
-}
+  border-top: 1px solid $grey-color-light;
+  bottom: 0px;
+  padding-top: 1rem;
+  position: absolute;
+  text-align: center;
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0px;
+  right: 0px;
+  border-bottom: 1rem solid $grey-color-dark;
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-  .site-footer {
-    text-align: center;
-    height: 100px;
-  }
-
-  .footer-col {
-    width: 100%;
-  }
-
-  .footer-col-3 {
-    display: none;
-  }
-
-  .four-oh-four {
-    font-size: $base-font-size * 15;
-    bottom: 60px;
+  hr {
+    border-top: 1px solid $grey-color-light;
+    width: 225px;
+    margin: 0 auto;
   }
 }
 
-@include media-query($on-palm) {
+.footer-info {
+  margin-bottom: 1rem;
 
-  .site-footer {
-    text-align: center;
-    height: 100px;
+  .footer-heading {
+    font-size: 28px;
+    margin-bottom: 0;
   }
+}
 
-  .footer-col {
-    width: 100%;
-  }
+.footer-links {
+  padding: 1rem 0;
+}
 
-  .footer-col-3 {
-    display: none;
-  }
-
-  .four-oh-four {
-    font-size: $base-font-size * 10;
-    bottom: 95px;
-  }
+.four-oh-four {
+  font-size: $base-font-size * 10;
+  bottom: 135px;
 }
